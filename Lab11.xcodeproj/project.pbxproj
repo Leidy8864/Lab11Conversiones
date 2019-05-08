@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		4000DBCA228228430045301C /* Lab11.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4000DBC8228228430045301C /* Lab11.xcdatamodeld */; };
 		4000DBCC228228450045301C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4000DBCB228228450045301C /* Assets.xcassets */; };
 		4000DBCF228228450045301C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4000DBCD228228450045301C /* LaunchScreen.storyboard */; };
+		4000DBD72282329E0045301C /* ConversorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4000DBD62282329E0045301C /* ConversorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4000DBCB228228450045301C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4000DBCE228228450045301C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4000DBD0228228450045301C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4000DBD62282329E0045301C /* ConversorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				4000DBC1228228430045301C /* AppDelegate.swift */,
 				4000DBC3228228430045301C /* ViewController.swift */,
 				4000DBC5228228430045301C /* Main.storyboard */,
+				4000DBD62282329E0045301C /* ConversorViewController.swift */,
 				4000DBCB228228450045301C /* Assets.xcassets */,
 				4000DBCD228228450045301C /* LaunchScreen.storyboard */,
 				4000DBD0228228450045301C /* Info.plist */,
@@ -99,11 +102,12 @@
 				TargetAttributes = {
 					4000DBBD228228430045301C = {
 						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 4000DBB9228228430045301C /* Build configuration list for PBXProject "Lab11" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -138,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4000DBD72282329E0045301C /* ConversorViewController.swift in Sources */,
 				4000DBC4228228430045301C /* ViewController.swift in Sources */,
 				4000DBCA228228430045301C /* Lab11.xcdatamodeld in Sources */,
 				4000DBC2228228430045301C /* AppDelegate.swift in Sources */,
@@ -289,10 +294,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y4KY35R95A;
 				INFOPLIST_FILE = Lab11/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.callupe.Lab11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -307,10 +310,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y4KY35R95A;
 				INFOPLIST_FILE = Lab11/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.callupe.Lab11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
